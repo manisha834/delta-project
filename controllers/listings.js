@@ -103,3 +103,7 @@ module.exports.destroyListing = async (req,res) =>{
      req.flash("success", "Listing Deleted!");
      res.redirect("/listings");
 };
+
+module.exports.renderPrivacy = (req,res) => {  
+    res.render("listings/privacy.ejs");
+};

@@ -105,9 +105,6 @@ app.use("/listings", listingRouter);
 app.use("/listings/:id/reviews", reviewRouter);
 app.use("/", userRouter);
 
-app.get("/privacy", (req, res) => {
-    res.render("listings/privacy"); 
-});
 
 
 

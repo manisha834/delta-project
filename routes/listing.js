@@ -39,4 +39,8 @@ router.route("/:id")
 router.get("/:id/edit", isLoggedIn, isOwner,wrapAsync( listingController.renderEditForm));
 
 
+//privacy route
+router.get("/privacy", (listingController.renderPrivacy));
+
+
 module.exports = router;
