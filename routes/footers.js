@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const footers = require("../controllers/pages");
+const footers = require("../controllers/footers");
 
 
 //privacy route
