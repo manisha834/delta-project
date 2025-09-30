@@ -1,11 +1,36 @@
 <% layout("layouts/boilerplate") %>
 <style>
-   .legal{
-    opacity: 0.7;
-   }
+  .row{
+    width: 40rem;
+  }
+    .legal{
+        opacity: 0.5;
+    }
+    h2 {
+        margin-top: 0.5rem;
+    }
+  .opt-box {
+    width: 10rem;
+    height:3rem;
+  } 
 </style>
-<body>
-   <div>
+
+   <div class="row mt-5 ms-5">
       <p class="legal">Legal terms</p>
-   </div>
-</body>
+      <h2>Airbnb Privacy</h2>
+      <div>
+     Our Privacy Policy explains what personal information we collect
+     , how we use personal information, how personal information is shared,
+      and privacy rights.
+      </div>
+      
+      <button class="btn btn-dark opt-box">I want to opt out</button>
+      <p>You can read more about how we use your personal information in our<a href="#ee">Privacy Policy.</a></p>
+      <hr>
+      <h3>Related Articles</h3>
+      <p class="legal">Legal terms</p>
+      <a href="#ee">Supplements for California, Colorado, Connecticut, Utah, Vermont, and Virginia
+        If you reside in California, Colorado, Connecticut, Utah, Vermont, or Virginia, this page 
+        applies to you and supplements the Airbnb Privacy Policy.
+      </a>
+    </div>
